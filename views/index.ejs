@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do App</title>
+</head>
+<link rel="stylesheet" href="index.css">
+<body>
+    <header>
+        <div class="left-header">
+            <h1>To-Do Application - </h1>
+            <h1><%= new Date().toLocaleDateString()%></h1>
+        </div>
+        <div class="right-header">
+            <p> By Dron </p>
+        </div>
+    </header>
+    <div class = "container">
+        <div class = "input-group">
+            <input type="text" id = "taskName" placeholder="Enter your tasks" />
+            <button id = "addButton">Add Task</button>
+        </div>
+        <div class="output_container">
+
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="index.js">
+   
+</script>
+</html>
